@@ -17,7 +17,7 @@ class CarWashStation:
     def wash_single_car(self, car: Car) -> None:
         if self.clean_power > car.clean_mark:
             car.clean_mark = self.clean_power
-    
+
     def serve_cars(self, car: list) -> float:
         income = 0
         for first in car:
